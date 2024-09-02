@@ -1,0 +1,79 @@
+.section2-title{
+    background-color: #447fa2;
+    text-align: center;
+}
+
+#section2-h1 {
+    padding-top: 2rem;
+    font-size: 3rem;
+}
+
+.section2{
+    width: 100%;
+    background-color: #447fa2;
+    padding: 50px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    align-content: center;
+    justify-items: center;
+}
+
+.apresentation{
+    position: relative;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    background: #D9D9D9;
+    display: flex;
+    justify-content: flex-end;
+    align-items: left;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+
+}
+
+.vitor{
+    background-image: url("../../imagens/pessoa-vitor.jpg") ;
+}
+.matheus{
+    background-image: url("../../imagens/pessoa-aguiar.png") ;
+}
+.cesar{
+    background-image: url("../../imagens/pessoa-cesar.png") ;
+}
+.carlos{
+    background-image: url("../../imagens/pessoa-carlos.png") ;
+}
+.gustavo{
+    background-image: url("../../imagens/pessoa-garcia.png") ;
+}
+.isaque{
+    background-image: url("../../imagens/pessoa-isaque.png");
+}
+
+.apresentation-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #00000040;
+    z-index: 1;
+}
+h3{
+    color:#447fa2;
+    
+}
+.apresentation p {
+    color: #ffffff;
+
+}
+.apresentation h3, .apresentation p {
+    z-index: 1999;
+}

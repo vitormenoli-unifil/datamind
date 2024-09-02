@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/logo-sem-fundo-D.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assests/structure_header.css">
+    <link rel="stylesheet" href="./assests/structure.css">
+    <link rel="stylesheet" href="./assests/styles.css">
+    <link rel="stylesheet" href="./assests/hamburguer.css">
+    <link rel="stylesheet" href="./assests/chart.css">
+    <link rel="stylesheet" href="./assests/structure_footer.css">
+    <link rel="stylesheet" href="./assests/responsive.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>dashboard</title>
+
+
+</head>
+
+<body>
+
+    <header>
+        <div class="space">
+            <div id="menu">
+                <div id="menu-bar" onclick="menuOnClick()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+            </div>
+            <div>
+                <img src="../imagens/logo-sem-fundo.png" alt="logo" class="logo logo-navbar">
+            </div>
+        </div>
+        <div class="profile">
+            <div><img src="../imagens/user-green.png" alt="icone profile" class="icon cor-azul">
+            </div>
+            <p>USERNAME</p>
+        </div>
+    </header>
+    <div class="container">
+        <aside class="nav" id="nav">
+            <nav>
+                <ul>
+                    <li><a href="#">Visão Geral</a></li>
+                    <li><a href="#">Análise de Dados</a></li>
+                    <li><a href="#">Relatórios</a></li>
+                    <li><a href="#">Configurações</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <div class="container1">
+            <div class="box1">
+                <div>
+                    <img src="../imagens/icone-analise-de-dados.webp" alt="icone folha" class="icon">
+                </div>
+                <p>Visão Geral</p>
+            </div>
+            <div class="box2">
+                <div id="grafico-container">
+                    <canvas id="grafico"></canvas>
+                  </div>
+            </div>
+        </div>
+
+        <div class="container2">
+            <div class="datas">
+                <div class="data">
+                    <div>
+                        <img src="../imagens/icone-nos-1.png" alt="icone umidade" class="icon cor-azul">
+                    </div>
+                    <div class="value">
+                        <p id="title">Utilização de Recursos</p>
+                        <p>75%</p>
+                    </div>
+                </div>
+                <div class="data">
+                    <div>
+                        <img src="../imagens/icone-nos-2.png" alt="icone luz" class="icon cor-azul">
+                    </div>
+                    <div class="value">
+                        <p id="title">Precisão dos Algoritmos</p>
+                        <p>92%</p>
+                    </div>
+                </div>
+                <div class="data">
+                    <div>
+                        <img src="../imagens/icone-nos-3.png" alt="icone ph" class="icon cor-azul">
+                    </div>
+                    <div class="value">
+                        <p id="title">Tempo de Resposta</p>
+                        <p>200 ms</p>
+                    </div>
+                </div>
+            </div>
+            <div class="datas">
+                <div class="data">
+                    <div>
+                        <img src="../imagens/icone-nos-4.png" alt="icone temperatura" class="icon cor-azul">
+                    </div>
+                    <div class="value">
+                        <p id="title">Taxa de Adoção</p>
+                        <p>65%</p>
+                    </div>
+                </div>
+                <div class="data">
+                    <div>
+                        <img src="../imagens/icone-nos-5.png" alt="icone ventilação" class="icon  cor-azul">
+                    </div>
+                    <div class="value">
+                        <p id="title">Atualizações</p>
+                        <p type>3</p>
+                    </div>
+                </div>
+                <div class="data">
+                    <div>
+                        <img src="../imagens/icone-nos-6.png" alt="icone irrigação" class="icon cor-azul">
+                    </div>
+                    <div class="value">
+                        <p id="title">Feedback dos Usuários</p>
+                        <p>4.7/5</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <img src="../imagens/logo-sem-fundo.png" alt="logo miniestufa" class="logo">
+            <p class="property">propriedade &#169; Todos os direitos reservados</p>
+        </div>
+        <div>
+            <button onclick="funcao_mudaCor()" id="button-alterar-cor">Altera Cor</button>
+        </div>
+        
+        <div>
+            <img src="../imagens/whats.avif" alt="logo whats " class="whats">
+            <img src="../imagens/instagram-icone-icon-1.png" alt="logo insta" class="insta">
+            <div>
+                <script src="../home/js/date.js"></script>
+            </div>
+            
+        </div>
+    </footer>
+    <script src="./js/hamburguer.js"></script>
+    <script src="./js/chart.js"></script>
+    <script src="../home/js/darkmode.js"></script>
+</body>
+
+</html>
+
+
+
+
+

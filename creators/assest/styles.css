@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+input,
+textarea,
+select,
+button {
+    font: 400 1rem "Catamaran", sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.dark {
+    background-color: #3f3f3f;
+
+    .menu ul a {
+        color: white;
+    }
+    .contact{
+        background-color: #3f3f3f;
+    }
+    .contact h2{
+        color: white;
+    }
+    .contact label input{
+        background-color: #3f3f3f;
+    }
+    .contact label input:focus + p{
+        background-color: #3f3f3f;
+    }
+    #banner h1{
+        color: white;
+    }
+
+}
+
+/* Alterações */
+
+.logo-navbar {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    background-color: black;
+}
+
+#button-alterar-cor {
+  padding: 5px;
+  border: 2px solid #fff;
+  border-radius: .5rem;
+  background-color: transparent;
+  color: #fff;
+  transition: .5s;
+}
+
+#button-alterar-cor:hover {
+  cursor: pointer;
+  background-color: #232323;
+}
