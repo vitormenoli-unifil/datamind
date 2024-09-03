@@ -427,3 +427,54 @@ footer {
     flex-direction: column;
   }
 }
+
+@media (min-width: 300px) {
+
+  .logo-navbar {
+    width: 100px;
+    height: auto;
+  }
+
+  header .wrapper-menu-profile li a {
+    font-size: 12px !important;
+  }
+
+  .wrapper-menu-profile {
+    margin: .5rem;
+  }
+
+  #banner h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  #banner a, #get-yours a {
+    font-size: 24px;
+  }
+
+  #problem p, #mini-estufa p, #social p, #get-yours p {
+    font-size: 16px;
+  }
+
+  #mini-estufa .section-text, #get-yours .section-text {
+    margin: 2rem;
+  }
+
+  #mini-estufa a {
+    font-size: 18px;
+  }
+
+  #social img, #problem img {
+    width: 70%;
+    margin-left: 30%;
+  }
+
+  section img {
+    width: 70%;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: column;
+  }
+}
