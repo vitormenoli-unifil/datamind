@@ -59,3 +59,108 @@ html {
   cursor: pointer;
   background-color: #232323;
 }
+
+footer {
+    height: 100% !important;
+}
+
+@media (min-width: 1440px) {
+  header .wrapper-menu-profile li a {
+    font-size: 18px !important;
+  }
+
+  #banner h1 {
+    font-size: 48px !important;
+  }
+
+  #banner button {
+    font-size: 24px !important;
+  }
+}
+
+@media (min-width: 1000px) {
+    header .wrapper-menu-profile li a {
+      font-size: 18px !important;
+    }
+  
+    #banner h1 {
+      font-size: 48px !important;
+    }
+  
+    #problem p, #mini-estufa p, #social p, #get-yours p {
+      font-size: 16px;
+    }
+  
+    #mini-estufa .section-text, #get-yours .section-text {
+      margin: 2rem;
+    }
+  
+    #mini-estufa a {
+      font-size: 18px;
+    }
+  
+    #social img, #problem img {
+      width: 70%;
+      margin-left: 30%;
+    }
+  
+    section img {
+      width: 70%;
+    }
+  }
+
+@media (min-width: 425px) {
+    .logo-navbar {
+        width: 100px;
+        height: auto;
+    }
+
+    header .wrapper-menu-profile li a {
+      font-size: 14px !important;
+    }
+
+    .wrapper-menu-profile {
+        margin: 1rem;
+    }
+  
+    #banner h1 {
+      font-size: 28px !important;
+      text-align: center;
+    }
+
+    #banner button {
+        font-size: 18px !important;
+    }
+  
+    #problem p, #mini-estufa p, #social p, #get-yours p {
+      font-size: 16px;
+    }
+  
+    #mini-estufa .section-text, #get-yours .section-text {
+      margin: 2rem;
+    }
+  
+    #mini-estufa a {
+      font-size: 18px;
+    }
+  
+    #social img, #problem img {
+      width: 70%;
+      margin-left: 30%;
+    }
+  
+    section img {
+      width: 70%;
+    }
+
+    label input {
+        padding: 0;
+        margin: 0;
+        height: auto;
+        min-width: 1rem !important;
+    }
+
+    .section3 {
+        
+    }
+  }

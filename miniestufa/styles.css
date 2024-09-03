@@ -298,3 +298,151 @@ a+a {
   cursor: pointer;
   background-color: #232323;
 }
+
+footer {
+  height: 100%;
+}
+
+@media (min-width: 1440px) {
+  header .wrapper-menu-profile li a {
+    font-size: 18px !important;
+  }
+
+  #problem p, #product p {
+    font-size: 24px !important;
+  }
+
+  #product .section-text p, #problem li {
+    font-size: 20px !important;
+  }
+
+  #imagem-home-3 {
+    width: 80%;
+  }
+
+  #mini-estufa h3, #social h3 {
+    font-size: 32px !important;
+  }
+
+  #mini-estufa p, #social p {
+    font-size: 28px !important;
+  }
+
+  #mini-estufa a {
+    font-size: 20px;
+    padding: 1rem;
+  }
+
+  #social .section-text {
+    margin: 2rem;
+  }
+
+  #social a {
+    padding: 1rem !important;
+    font-size: 18px !important;
+  }
+}
+
+@media (min-width: 1000px) {
+  header .wrapper-menu-profile li a {
+    font-size: 18px;
+  }
+
+  #banner h1 {
+    font-size: 48px;
+  }
+
+  #banner a, #get-yours a {
+    font-size: 24px;
+  }
+
+  #problem p, #mini-estufa p, #social p, #get-yours p {
+    font-size: 16px;
+  }
+
+  #mini-estufa .section-text, #get-yours .section-text {
+    margin: 2rem;
+  }
+
+  #mini-estufa a {
+    font-size: 18px;
+  }
+
+  #social img, #problem img {
+    width: 70%;
+    margin-left: 30%;
+  }
+
+  section img {
+    width: 70%;
+  }
+
+  img {
+    margin: auto 0 !important;
+  }
+}
+
+@media (min-width: 425px) {
+  header .wrapper-menu-profile li a {
+    font-size: 14px;
+  }
+
+  .logo-navbar {
+    width: 100px;
+    height: auto;
+  }
+
+  .wrapper-menu-profile {
+    margin: 1rem;
+  }
+
+  #banner h1 {
+    font-size: 48px;
+  }
+
+  #banner a, #get-yours a {
+    font-size: 24px;
+  }
+
+  #problem p, #mini-estufa p, #social p, #get-yours p {
+    font-size: 16px;
+  }
+
+  #mini-estufa .section-text, #get-yours .section-text {
+    margin: 2rem;
+  }
+
+  #mini-estufa a {
+    font-size: 18px;
+  }
+
+  #social img, #problem img {
+    width: 70%;
+    margin-left: 30%;
+  }
+
+  section img {
+    width: 70%;
+  }
+
+  img {
+    margin: auto 0 !important;
+  }
+
+  .card {
+    padding: 1rem 0 !important;
+    width: 65%;
+    margin: 0 auto;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section p, section a, section li {
+    font-size: 16px !important;
+  }
+}
